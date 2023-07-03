@@ -1,0 +1,36 @@
+.targetelement{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    background-color: yellow;
+    color:black;
+    border: 2px solid black
+}
+.siblingelement{
+    border: 2px solid red;
+}
+
+.parentDiv{
+    position: relative;
+    border: 2px solid magenta;
+    color: black;
+    margin-top: 20px;
+}
+.absoluteelement{
+    position: absolute;
+    border: 2px solid greenyellow;
+    color: black;
+}
+.fixedelement{
+    position: fixed;
+    border: 2px solid blue;
+    color: black;
+    bottom: 0;
+    left: 0;
+}
+.stickyelement{
+    position: sticky;
+    border: 2px solid orangered;
+    color: black;
+    top:0
+}
