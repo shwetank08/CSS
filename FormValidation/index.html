@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Validation</h1>
+        <form class="formdata" onsubmit="handleSubmit(event)">
+            <div class="formelement">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter Name" />
+            </div>
+            <div class="formelement">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Email Id" />
+            </div>
+            <div class="formelement">
+                <label for="password">Password</label>
+                <input type="text" id="password" placeholder="Enter Password" />
+            </div>
+            <div class="formelement">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter Your Age" />
+            </div>
+            <div class="formelement">
+                <label for="gender">Gender</label>
+                <input type="text" id="gender" placeholder="Enter Your Gender" />
+            </div>
+            <div class="formelement">
+                <label for="date">Date</label>
+                <input type="date" id="date" placeholder="Enter Date Of Birth" />
+            </div>
+            <div class="formelement">
+                <label for="color">Color</label>
+                <input type="color" id="color" placeholder="Choose A Color" />
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
